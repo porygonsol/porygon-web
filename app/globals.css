@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(215, 223, 35, 0.6);
+  }
+  
+  .glow-btn {
+    box-shadow: 0 0 20px rgba(215, 223, 35, 0.6);
+    transition: all 0.3s ease;
+  }
+  
+  .glow-btn:hover {
+    box-shadow: 0 0 35px rgba(215, 223, 35, 0.9);
+  }
+
+  .glass-morphism {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(215, 223, 35, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(215, 223, 35, 0.1);
+  }
+
+  @keyframes scroll-down {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+  }
+
+  @keyframes scroll-up {
+    0% { transform: translateY(-50%); }
+    100% { transform: translateY(0); }
+  }
+
+  .animate-scroll-down-continuous {
+    animation: scroll-down 20s linear infinite;
+  }
+
+  .animate-scroll-up-continuous {
+    animation: scroll-up 20s linear infinite;
+  }
+}
