@@ -10,7 +10,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className={`mt-[100vh] py-32 px-5 bg-[#111] text-center max-w-4xl mx-auto transition-all duration-700 ${
+    <section className={`py-20 sm:py-32 px-5 bg-[#111] text-center max-w-4xl mx-auto transition-all duration-700 ${
       show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
     }`}>
       <h1 className="text-3xl md:text-5xl leading-relaxed text-[#d7df23] mb-6">
