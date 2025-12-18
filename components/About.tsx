@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <section className="py-24 px-5 bg-black text-center">
-      <h2 className="text-2xl md:text-4xl text-[#d7df23] mb-12">About Me</h2>
+      <h2 className="text-2xl md:text-4xl text-[#d7df23] mb-12">About Us</h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 max-w-[1400px] mx-auto">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-20 max-w-4xl mx-auto">
         <div className="text-center">
           <div className="w-16 h-16 mx-auto mb-4 bg-[#d7df23] rounded-full flex items-center justify-center">
             <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -11,17 +11,17 @@ export default function About() {
             </svg>
           </div>
           <h3 className="font-bold text-white mb-2 text-sm">Name</h3>
-          <p className="text-[#aaa] text-sm">Sham and Shane</p>
+          <p className="text-[#aaa] text-sm whitespace-nowrap">Sham and Shane</p>
         </div>
         
-        <div className="text-center flex flex-col items-center">
-          <div className="w-16 h-16 mb-4 bg-[#d7df23] rounded-full flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 mx-auto mb-4 bg-[#d7df23] rounded-full flex items-center justify-center">
             <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
           </div>
           <h3 className="font-bold text-white mb-2 text-sm">Email</h3>
-          <p className="text-[#aaa] text-sm whitespace-nowrap">porygonsolutions@gmail.com</p>
+          <p className="text-[#aaa] text-sm">porygonsolutions@gmail.com</p>
         </div>
         
         <div className="text-center">
@@ -32,17 +32,7 @@ export default function About() {
             </svg>
           </div>
           <h3 className="font-bold text-white mb-2 text-sm">Location</h3>
-          <p className="text-[#aaa] text-sm">Tamil Nadu, INDIA</p>
-        </div>
-        
-        <div className="text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-[#d7df23] rounded-full flex items-center justify-center">
-            <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-            </svg>
-          </div>
-          <h3 className="font-bold text-white mb-2 text-sm">Profession</h3>
-          <p className="text-[#aaa] text-sm">Website Developer</p>
+          <p className="text-[#aaa] text-sm whitespace-nowrap">Tamil Nadu, INDIA</p>
         </div>
       </div>
     </section>

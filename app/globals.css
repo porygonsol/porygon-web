@@ -28,21 +28,23 @@
     box-shadow: 0 8px 32px 0 rgba(215, 223, 35, 0.1);
   }
 
-  @keyframes scroll-down {
+  @keyframes infinite-scroll-down {
     0% { transform: translateY(0); }
     100% { transform: translateY(-50%); }
   }
 
-  @keyframes scroll-up {
+  @keyframes infinite-scroll-up {
     0% { transform: translateY(-50%); }
     100% { transform: translateY(0); }
   }
 
-  .animate-scroll-down-continuous {
-    animation: scroll-down 20s linear infinite;
+  .animate-infinite-scroll-down {
+    animation: infinite-scroll-down 25s linear infinite;
+    will-change: transform;
   }
 
-  .animate-scroll-up-continuous {
-    animation: scroll-up 20s linear infinite;
+  .animate-infinite-scroll-up {
+    animation: infinite-scroll-up 25s linear infinite;
+    will-change: transform;
   }
 }
