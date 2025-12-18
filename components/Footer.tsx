@@ -60,8 +60,9 @@ export default function Footer() {
         
         {/* Copyright Section with Tamil Quote - No Border */}
         <div className="pt-6 sm:pt-8 text-center">
-          <p className="text-[#d7df23] text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 font-semibold px-4">
-            வாரி பெருக்கி வளம்படுத்து உற்றவை ஆராய்வான் செய்க வினை
+          <p className="text-[#d7df23] text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 font-semibold px-4 leading-relaxed">
+            வாரி பெருக்கி வளம்படுத்து உற்றவை<br />
+            ஆராய்வான் செய்க வினை
           </p>
           <p className="text-[#888] text-xs sm:text-sm">
             © {new Date().getFullYear()} Porygon. All rights reserved.
