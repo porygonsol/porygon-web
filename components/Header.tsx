@@ -66,7 +66,7 @@ export default function Header() {
       <header className="h-screen flex justify-center items-center bg-transparent">
         <div className="flex items-center gap-2 sm:gap-4 px-4">
           <Image 
-            src="/porygon-logo.png" 
+            src="/icon.png" 
             alt="Porygon Logo" 
             width={80}
             height={80}
