@@ -103,7 +103,7 @@ export default function Header() {
           <div className="h-[60px] sm:h-[70px] flex items-center justify-center w-full">
             <div className="flex items-center gap-2 justify-center">
               <Image 
-                src="/porygon-logo.png" 
+                src="/icon.png" 
                 alt="Porygon Logo" 
                 width={28}
                 height={28}
