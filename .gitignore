@@ -43,7 +43,6 @@ next-env.d.ts
 # Old HTML files (not needed for Next.js)
 i1.html
 index.html
-porygon-logo.png
 
 # Logs
 logs
