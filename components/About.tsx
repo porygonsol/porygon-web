@@ -11,7 +11,7 @@ export default function About() {
             </svg>
           </div>
           <h3 className="font-bold text-white mb-2 text-sm">Name</h3>
-          <p className="text-[#aaa] text-sm whitespace-nowrap">Sham and Shane</p>
+          <p className="text-[#aaa] text-sm whitespace-nowrap">Sham,Shane,Sarvesh</p>
         </div>
         
         <div className="text-center">
