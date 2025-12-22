@@ -27,7 +27,7 @@ export default function Hero() {
         href="#appointments" 
         className="inline-block bg-[#d7df23] hover:bg-[#c5cd1f] text-black font-bold px-8 py-4 rounded-full transition glow-btn"
       >
-        Book a Call With Sham/Shane
+        Book a Call With Sham/Shane/Sarvesh
       </a>
     </section>
   )
